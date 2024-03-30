@@ -1,0 +1,23 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="core.app.models.Recipe.objects" />
+          <option value="core.app.models.PrayerTime.objects" />
+          <option value="core.app.models.ChatMessage.objects" />
+          <option value="core.app.models.MainCategory.objects" />
+          <option value="core.app.models.Category.objects" />
+          <option value="core.app.models.CustomUser.objects" />
+          <option value="core.app.models.RelatedTopic.objects" />
+          <option value="core.app.models.Article.objects" />
+          <option value="core.app.models.Photo.objects" />
+          <option value="core.app.models.FAQ.objects" />
+          <option value="core.app.models.Feedback.objects" />
+          <option value="core.app.models.Term.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

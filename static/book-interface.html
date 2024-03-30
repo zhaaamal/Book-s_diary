@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Bookstore</title>
+    <style>
+        /* CSS стили для пользовательского интерфейса */
+        .search-form {
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 300px;
+            padding: 10px;
+        }
+
+        .search-button {
+            padding: 10px;
+            background-color: #337ab7;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .book-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .book-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+
+        .book-title {
+            font-weight: bold;
+        }
+
+        .book-rating {
+            color: #337ab7;
+        }
+    </style>
+    <script>
+        // JavaScript логика для поиска книг
+        function searchBooks() {
+            var searchInput = document.getElementById("search-input").value;
+            var searchRating = document.getElementById("search-rating").value;
+
+            // TODO: Выполнить поиск и отобразить результаты
+        }
+    </script>
+</head>
+<body>
+<h1>Online Bookstore</h1>
+
+<div class="search-form">
+    <input type="text" id="search-input" class="search-input" placeholder="Поиск по названию">
+    <input type="number" id="search-rating" class="search-input" placeholder="Поиск по рейтингу">
+    <button class="search-button" onclick="searchBooks()">Поиск</button>
+</div>
+
+<ul class="book-list" id="book-list">
+    <!-- Здесь отображаются результаты поиска -->
+</ul>
+</body>
+</html>
